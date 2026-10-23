@@ -1,4 +1,4 @@
-﻿import { connect } from 'cloudflare:sockets';
+import { connect } from 'cloudflare:sockets';
 
 const CHECK_TIMEOUT_MS = 12000;
 const CONNECT_TIMEOUT_MS = 9999;
@@ -17,7 +17,7 @@ const DEFAULT_PORTS = {
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 
-const DEFAULT_BEIAN_CONTENT = `© 2025 - 2026 Check Socks5 · 基于 <a href="https://github.com/cmliu/CF-Workers-CheckSocks5" target="_blank" rel="noreferrer">Cloudflare Workers 构建与运行</a> · 今日访问人数：<span id="visit-count">···</span> · 站点维护：<a href="https://t.me/CMLiussss" target="_blank" rel="noreferrer">CMLiussss</a>
+const DEFAULT_BEIAN_CONTENT = `© 2025 - 2026 Check Socks5 · 基于 <a href="https://github.com/aqiuyyyy/CF-Workers-CheckSocks5" target="_blank" rel="noreferrer">Cloudflare Workers 构建与运行</a> · 今日访问人数：<span id="visit-count">···</span> · 站点维护：<a href="https://t.me/aqiu469" target="_blank" rel="noreferrer">Guining</a>
 <script>
 (function () {
 	const visitCountElement = document.getElementById('visit-count');
